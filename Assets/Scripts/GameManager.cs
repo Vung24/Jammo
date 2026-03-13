@@ -18,4 +18,8 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("Main");
     }
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }
